@@ -13,7 +13,7 @@ check.so: $(src_check)
 	gcc -g -fPIC -shared $(src_check) -o $(so_check)
 
 square.so: $(src_square)
-	gcc -g -fPIC -shared $(src_square) -o $(so_square)
+	gcc -g -Ofast -fPIC -shared $(src_square) -o $(so_square)
 
 clean:
 	rm -rf C_Dynamic_libraries/*
