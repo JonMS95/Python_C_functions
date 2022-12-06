@@ -3,6 +3,7 @@
 import ctypes
 from usingCFunctions_constants import PATH_CHECK_SIGN, PATH_SQUARE
 from random import randint
+import squareClass
 
 # Now, import the symbols from the .so files. The objects that will be created do behave as Python classes.
 
