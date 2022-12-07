@@ -43,5 +43,5 @@ time_start = time.perf_counter_ns()
 ret = C_squareNumber.testSquare(TEST_INTEGER_AMOUNT)
 elapsed_time_C = time.perf_counter_ns() - time_start
 
-print("Python time: " + str(elapsed_time_Python))
-print("C time: " + str(elapsed_time_C))
+print('\n' + "Python time: " + '\t' + str(elapsed_time_Python))
+print("C time: " + '\t' + str(elapsed_time_C))
