@@ -8,7 +8,7 @@ so_check	= C_Dynamic_libraries/lib$(check).so
 so_square	= C_Dynamic_libraries/lib$(square).so
 
 all: clean check.so square.so
-#
+
 check.so: $(src_check)
 	gcc -g -fPIC -shared $(src_check) -o $(so_check)
 
